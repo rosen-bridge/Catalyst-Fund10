@@ -15,9 +15,9 @@ To understand how the reward model fits into the tokenomics, let's break down th
 
 - **Initial Liquidity Bootstrapping (Ergo and Cardano)**: 10% of the total token supply, aimed at providing liquidity for the bridge's initial launch.
 
-- **Future Liquidity Bootstrapping (New Chains)**: 38.5% of the total token supply reserved for liquidity on new chains, ensuring the bridge's expansion and interoperability. This fund is locked and will not be unlocked until the bridge grows to new ecosystems. In new ecosystems this will be used to raise liquidity on public markets minimizing the friction and liqudity of RSN across major crypto assets. 
+- **Future Liquidity Bootstrapping (New Chains)**: 38.5% of the total token supply is reserved for liquidity on new chains, ensuring the bridge's expansion and interoperability. This fund is locked and will not be unlocked until the bridge grows to new ecosystems. In new ecosystems, this will be used to raise liquidity on public markets minimizing the friction and liquidity of RSN across major crypto assets. 
 
-- **Event-Based Emission (Rewards)**: 25% of the total token supply allocated for event-based rewards, with 70% of this portion going to Watchers. Rewards are a flexible parameter and can be changed to optimize rewards in different environment and accelerate adoption of the Rosen framework. This is where the rewards for Watchers come from, incentivizing them to monitor and report on the bridge's activities.
+- **Event-Based Emission (Rewards)**: 25% of the total token supply is allocated for event-based rewards, with 70% of this portion going to Watchers. Rewards are a flexible parameter and can be changed to optimize rewards in different environments and accelerate the adoption of the Rosen framework. This is where the rewards for Watchers come from, incentivizing them to monitor and report on the bridge's activities.
 
 - **Passive Staking**: 2.5% of the total token supply for staking rewards, which can also be an additional source of rewards for token holders who participate in staking.
 
@@ -28,19 +28,19 @@ To understand how the reward model fits into the tokenomics, let's break down th
 
 # Role of Watchers
 
-Watchers in the Rosen Bridge ecosystem are instrumental in maintaining security and transparency. They actively monitor network activities and report valid bridge-related events. Their rewards, comprising 70% of the event-based emission pool, serve as a powerful incentive for Watchers to diligently perform their duties. Rewards are a flexible parameter and can be changed to optimize rewards in different environment and accelerate adoption of the Rosen framework.
+Watchers in the Rosen Bridge ecosystem are instrumental in maintaining security and transparency. They actively monitor network activities and report valid bridge-related events. Their rewards, comprising 70% of the event-based emission pool, serve as a powerful incentive for Watchers to diligently perform their duties. Rewards are a flexible parameter and can be changed to optimize rewards in different environments and accelerate the adoption of the Rosen framework.
 
 By providing a mechanism for users to join as Watchers, as long as they meet the collateral requirements, the Rosen Bridge encourages active participation from the community, further enhancing its security and reliability. This aligns with the overall goal of the bridge to facilitate secure and efficient cross-chain interactions while creating value for its participants.
 
 In summary, the reward model for Watchers in the Rosen Bridge ecosystem is a key component of its tokenomics, promoting security, transparency, and community engagement. It reflects the bridge's commitment to fairly compensating those who contribute to its successful operation while fostering a robust and vibrant ecosystem across multiple blockchain networks.
 
-The security model of the Rosen Bridge framework is built on a combination of sybil resistance mechanisms and the use of permits, which are designed to ensure the integrity of the network while providing economic benefits for honest information reporting.
+The security model of the Rosen Bridge framework is built on a combination of Sybil resistance mechanisms and the use of permits, which are designed to ensure the integrity of the network while providing economic benefits for honest information reporting.
 
 # Sybil Resistance Mechanism
 
 Sybil resistance is a fundamental aspect of the Rosen Bridge's security model. The goal is to impose a cost on individuals attempting to operate multiple instances simultaneously, thereby preventing malicious actors from overwhelming the network with fake or dishonest information. To achieve this, a significant upfront cost is required to run a Watcher node.
 
-The `collateral` required to run a Watcher is around (due to market volatility) $1,000 in RSN tokens and $1,000 in Ergo. This substantial cost acts as a deterrent, limiting the number of Watchers any single entity can operate, thus preventing sybil attacks.This initial collateral is not subject to seizure however does come with impermanent loss risks. 
+The `collateral` required to run a Watcher is around (due to market volatility) $1,000 in RSN tokens and $1,000 in Ergo. This substantial cost acts as a deterrent, limiting the number of Watchers any single entity can operate, thus preventing Sybil attacks. The initial collateral is not subject to seizure, it is locked and should be considered illiquid by Watchers until redemption occurs.
 
 ## Permits for Verification
 
@@ -105,7 +105,7 @@ Rosen, with its open-source contracts and clear economic assumptions, has the po
 # The Goal of Rosen Bridge: Create A lower-cost alternative for market access, built with clear assumptions
 
 
-Rosen is built with the idea of transparency and profit distribution in mind. Tokens can pay a fee for Rosen support and in the future can lock Rosen to lower the bridge fee for their project. The profits of bridge integration will be distributed to Guards, Active Watchers and The Development Team members for ongoing maintenance and support. 
+Rosen is built with the idea of transparency and profit distribution in mind. Tokens can pay a fee for Rosen support and in the future can lock Rosen to lower the bridge fee for their project. The profits of bridge integration will be distributed to Guards, Active Watchers, and The Development Team members for ongoing maintenance and support. 
 
 Using a bridge to access decentralized exchanges (DEXs) offers several advantages over paying a centralized exchange and market makers to manage the listing and accessibility of a project's token to the public. Here are some key reasons why using a bridge can be a better option:
 
